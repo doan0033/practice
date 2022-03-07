@@ -1,0 +1,82 @@
+:root{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+}
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-image: url(https://images.unsplash.com/photo-1575995872537-3793d29d972c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWxsdXN0cmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    
+}
+
+hr{
+    opacity: 30%;
+    margin: 30px;
+}
+
+.right form {
+    width: 400px;
+}
+
+.right .same {
+    text-align: center;
+}
+
+.right .signin-gg {
+    width: 200px;
+    height: 40px;
+    margin-right: 35px;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
+    background-color: #c4c4c4;
+    opacity: 30%;
+}
+
+.signin-btn {
+    background-color: rgb(241, 69, 141);
+    display: block;
+    width: 60%;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 900px) {
+    .split-screen {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+}
